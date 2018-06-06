@@ -1,0 +1,11 @@
+C:\Users\kasutaja\Desktop\Bacchus\Bacchus\Bacchus\bin\Debug\netcoreapp2.0\Bacchus.deps.json
+C:\Users\kasutaja\Desktop\Bacchus\Bacchus\Bacchus\bin\Debug\netcoreapp2.0\Bacchus.runtimeconfig.json
+C:\Users\kasutaja\Desktop\Bacchus\Bacchus\Bacchus\bin\Debug\netcoreapp2.0\Bacchus.runtimeconfig.dev.json
+C:\Users\kasutaja\Desktop\Bacchus\Bacchus\Bacchus\bin\Debug\netcoreapp2.0\Bacchus.dll
+C:\Users\kasutaja\Desktop\Bacchus\Bacchus\Bacchus\obj\Debug\netcoreapp2.0\Bacchus.csproj.CoreCompileInputs.cache
+C:\Users\kasutaja\Desktop\Bacchus\Bacchus\Bacchus\obj\Debug\netcoreapp2.0\Bacchus.AssemblyInfoInputs.cache
+C:\Users\kasutaja\Desktop\Bacchus\Bacchus\Bacchus\obj\Debug\netcoreapp2.0\Bacchus.AssemblyInfo.cs
+C:\Users\kasutaja\Desktop\Bacchus\Bacchus\Bacchus\bin\Debug\netcoreapp2.0\Bacchus.pdb
+C:\Users\kasutaja\Desktop\Bacchus\Bacchus\Bacchus\obj\Debug\netcoreapp2.0\Bacchus.dll
+C:\Users\kasutaja\Desktop\Bacchus\Bacchus\Bacchus\obj\Debug\netcoreapp2.0\Bacchus.pdb
+C:\Users\kasutaja\Desktop\Bacchus\Bacchus\Bacchus\obj\Debug\netcoreapp2.0\Bacchus.csprojAssemblyReference.cache

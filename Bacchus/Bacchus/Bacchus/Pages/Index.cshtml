@@ -1,0 +1,38 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div>
+    <ul class="categoryList">
+        <li id="all" class="categoryItem" onclick="showAll()">All</li>
+        @for (var i = 0; i < Model.Categories.Count; i++)
+        {
+            <li class="categoryItem" onclick="filterClick(this)">@Model.Categories[i]</li>
+        }
+        </ul>
+</div>
+<div id="bidLightbox">
+    <h1>Make bid</h1>
+    <h6 id="itemName">Placeholder item</h6>
+    <form method="post">
+        <h6>Name: <input class="inputText" type="text" name="name"></h6>
+        <h6>Sum(€):  <input class="inputText" type="number" name="sum"></h6>
+        <input class="bidBtn" type="submit" value="Bid">
+    </form>
+    <button class="bidBtn">Back</button>
+</div>
+<div id="auctions">
+    <h2>Auctions</h2>
+        @for (var i = 0; i < Model.Items.Count; i++)
+        {
+            
+        <div onclick="openBidWindow()" class="auctionItem" data-category="@Model.Items[i].ProductCategory" id="auctionItem-@i">
+            <hr>
+            <h5>@Model.Items[i].ProductName</h5>
+            <br>@Model.Items[i].ProductDescription
+            <br>Bidding ends @Model.Items[i].BiddingEndDate
+        </div>
+        }
+</div>

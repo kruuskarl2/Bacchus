@@ -1,0 +1,69 @@
+﻿div {
+    margin: 50px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+.categoryItem {
+    display: inline;
+    padding: 10px;
+    color: white;
+    -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 0.2s ease-out;
+    -o-transition: background-color 0.2s ease-out;
+    transition: background-color 0.2s ease-out;
+    cursor: pointer;
+}
+
+.categoryItem:hover {
+    background-color: green !important;
+}
+
+.categoryList {
+    padding: 10px;
+    margin: 0;
+    background-color: #383838;
+}
+
+.auctionItem {
+    margin: 0;
+    padding: 0;
+    -webkit-transition: color 0.2s ease-out;
+    -moz-transition: color 0.2s ease-out;
+    -o-transition: color 0.2s ease-out;
+    transition: color 0.2s ease-out;
+    cursor: pointer;
+}
+
+.auctionItem:hover {
+    color: green;
+}
+
+h5 {
+    padding: 0;
+    margin: 0;
+}
+
+#bidLightbox {
+    position: fixed;
+    border: 2px solid #383838;
+    border-top: 25px solid #383838;
+    background-color: white;
+    width: auto;
+    height: auto;
+    margin: 40%;
+    margin-top: 8%;
+    padding: 20px;
+    padding-top: 0;
+    display: none;
+}
+
+.bidBtn {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.inputText {
+    float: right;
+    width: 60%;
+}
